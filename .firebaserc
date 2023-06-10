@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "auth-5ffb1": {
+      "hosting": {
+        "auth": [
+          "auth-5ffb1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "auth-5ffb1"
+  }
+}

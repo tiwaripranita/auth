@@ -1,0 +1,73 @@
+<p>Login works!</p>
+
+<!-- <div class="container-fluid">
+  <div class="row mt-5">
+    <div class="col-4">
+      <div class="card-shadow">
+        <div class="card-body">
+          <form>
+            <div class="nb-3">
+              <h4>Login</h4>
+            </div>
+            <div class="nb-3">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" [(ngModel)]="email"  aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="nb-3">
+              <label for="exampleInputPassword1">Enter password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" [(ngModel)]="password"  aria-describedby="emailHelp" placeholder="Enter password">
+            </div>
+            <button type="button" (click)="login()" class="btn btn-info">Login</button>
+            <div class="row">
+              <div class="col-7">
+                <a [routerLink]="['/signup']" style="text-decoration:none;">Don't have an account?<span class="text-danger"> Signup here</span></a>
+              </div>
+              <div class="col-5">
+                <a [routerLink]="['/forgot']" class="text-dark" style="text-decoration:none;">Forgot password?</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+ <div class="container-fluid">
+<div class="mt-5">
+    <div class="col">
+        <div class="col-4">
+            <div class="card-shadow" >
+                <div class="card-body">
+                    <form action="">
+                        <div class="mb-3">
+
+                           <h4>login</h4>
+                        </div>
+                        <div>
+                            <label for="exampleInputEmail1">Email address </label>
+                            <input type="email" class="form-controll" id="exampleInputEmail1" name="email" [(ngModel)]="email" aria-describedby="emailHelp" placeholder="enter email">
+                        </div>
+                        <div>
+                            <label for="exampleInputEmail1">enter password </label>
+                            <input type="password"  class="form-controll" id="exampleInputEmail1" name="password" [(ngModel)]="password" aria-describedby="emaillHelp" placeholder="enter password">
+                        </div>
+                        <button type="button" (click)="login()" class="btn btn-info"> login</button>
+                        <div class="row">
+                            <div class="col-7">
+                                <a [routerLink]="['/Signup']" style="text-decoration:none ;">Dont have a account! <span>Signup here</span></a>
+                            </div>
+                            <div class="col-5">
+                                <a [routerLink]="['/forgot']" style="text-decoration:none ;">Forgot password</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</div> 
+  
